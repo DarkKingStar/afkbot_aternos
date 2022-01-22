@@ -1,5 +1,5 @@
 {
-	"ip":"villagepeople.aternos.ip",
+	"ip":"villagepeople.aternos.me",
 	"port": "25565",
 	"name": "afkbot",
 	"auto-night-skip":"true"
