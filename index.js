@@ -51,8 +51,8 @@ bot.on('time', function(time)
                 	lasttime = bot.time.age;
             	} 
 		else {
-                	var yaw = Math.random()*pi - (0.1*pi);
-                	var pitch = Math.random()*pi - (0.1*pi);
+                	var yaw = Math.random()*pi - (0.5*pi);
+                	var pitch = Math.random()*pi - (0.5*pi);
                 	bot.look(yaw,pitch,false);
                 	lastaction = actions[Math.floor(Math.random() * actions.length)];
                 	bot.setControlState(lastaction,true);
